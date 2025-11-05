@@ -1,0 +1,21 @@
+.max_width
+{
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
+
+.footer_txt{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.f_img
+{
+    height: 60px;
+}
+
+.f_img2
+{
+    height: 55px;
+}
