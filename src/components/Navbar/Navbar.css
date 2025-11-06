@@ -16,7 +16,7 @@ a{
     text-decoration: none;
     font-size: 20px;
     color: black;
-    padding: 16px 30px;
+    padding: 10px 41px;
     text-align: end;
     justify-items: right;
     justify-content: right;
@@ -29,4 +29,77 @@ a{
     border: 1px solid rgb(16, 16, 160);
     border-radius: 5px;
     font-size: 18px;
+    padding: 12px 45px;
 }
+
+/* @media (max-width: 1440px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 16px 30px;
+}
+}
+
+@media (max-width: 1200px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 6px 20px;
+}
+}
+
+@media (max-width: 966px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 16px 30px;
+}
+}
+
+@media (max-width: 768px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 16px 30px;
+}
+}
+
+@media (max-width: 580px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 16px 30px;
+}
+}
+
+@media (max-width: 320px) {
+  .tasker
+{
+    font-size: 18px;
+}
+
+a
+{
+    padding: 16px 30px;
+}
+} */

@@ -9,7 +9,7 @@ function Footer()
 {
     return(
         <>
-        <Container  maxWidth='full'  sx={{maxHeight:'1000px',background:"#808488ff",borderBottom:"1px solid #000"}}>
+        <Container  maxWidth='full'  sx={{maxHeight:'1000px',background:"#808488ff",borderBottom:"1px solid #000",padding:'10px 18px'}}>
            <Box class="max_width">
             <Box sx={{width:'100%'}}>
                 <Typography variant="h6" sx={{color:'#bebabaff'}}>Follow us! We're friendly: 
@@ -69,7 +69,7 @@ function Footer()
                         <a className="footer_txt" href="#">California Consumer Notice</a>
                     </Typography>
                     <Typography variant="h6">
-                        <a className="footer_txt" href="#">Do Not Sell Personal Information</a>
+                        <a className="footer_txt" href="#">Do Not Sell Personal </a>
                     </Typography>
                     <Typography variant="h6">
                         <a className="footer_txt" href="#">Legal</a>
