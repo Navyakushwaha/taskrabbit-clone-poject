@@ -1,6 +1,22 @@
+:root {
+  --primary-color: #df731cff;
+  --secondary-color: #000;
+  --tirnery-color: #fff;
+  --forth-color:#312f2f;
+  --fifth-color:#837777;
+  --six-color:#7a7979;
+}
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
      font-family: 'roboto',sans-serif;
+}
+
+.max_width
+{
+    width: 90%;
+    margin: auto;
+    /* background-color: aquamarine; */
 }
