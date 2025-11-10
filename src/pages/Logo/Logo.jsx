@@ -115,16 +115,16 @@ function Logo() {
             case "trending":
                 return <Trending />;
             default:
-                return <Assembly/>;
+                return <Assembly />;
         }
     }
 
     return (
         <>
-            <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }, margin: '8px auto', py: { xs: '10px', sm: '10px', md: '70px' } }}>
+            <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }, margin: '4px auto', py: { xs: '10px', sm: '10px', md: '2px' } }}>
                 <Box class="max_width">
                     <Box sx={{ height: { xs: '100%', sm: '100%', md: '100%' }, width: { xs: '100%', sm: '100%', md: '100%' }, display: 'flex', flexWrap: 'wrap', borderBottom: '1px solid var(--primary-color)' }}>
-                        
+
                         <Box
                             sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
                         >
@@ -225,9 +225,9 @@ function Logo() {
                         </Box>
 
                     </Box>
-                    
-                        {renderPage()}
-                    
+
+                    {renderPage()}
+
 
                     {/* <Box sx={{
                         height: { xs: '100%', sm: '100%', md: '100%' },

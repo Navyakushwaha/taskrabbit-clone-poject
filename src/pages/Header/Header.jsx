@@ -28,7 +28,7 @@ function Header() {
                     background:'rgba(17, 14, 15, 0.57)'
                 }}>
                     <Box sx={{ width: '50%',margin:' 65px auto' }}>
-                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'20px',sm:'57px' ,md:'57px'},textAlign:'center' }}>Book trusted help for home tasks</Typography>
+                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'20px',sm:'48px' ,md:'57px'},textAlign:'center' }}>Book trusted help for home tasks</Typography>
                     </Box>
                     <Box
                         sx={{
@@ -66,7 +66,7 @@ function Header() {
                                                 bgcolor: "#df731cff",
                                                 color: "white",
                                                 borderRadius: "50%",
-                                                p: 2,
+                                                p: {xs:'1',md:'1',sm:'2'},
                                                 "&:hover": { bgcolor: "#df731cff" },
                                             }}
                                         >

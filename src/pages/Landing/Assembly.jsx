@@ -1,6 +1,7 @@
 import { Container, Box, Button, Typography } from "@mui/material";
 import HomepageImage from "../../assets/Images/Homepage_Assembly.webp";
 import "./Landing.css"
+import { Margin } from "@mui/icons-material";
 const Block = [
     {
         id: '1',
@@ -36,7 +37,7 @@ function Assembly() {
             <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' } }}>
                 <Box sx={{
                     height: { xs: '100%', sm: '100%', md: '100%' },
-                    display: 'flex', flexWrap: 'wrap', gap: '20px', py: '35px'
+                    display: 'flex', flexWrap: 'wrap', gap:{xs:'15px',sm:'15px',md:'20px'}, py: '35px'
                 }}>
                     {Block.map((item) => (
                         <Typography sx={{
@@ -51,12 +52,29 @@ function Assembly() {
                         </Typography>
                     ))}
                 </Box>
+                 
+                 <Box sx={{position:"relative",height: { xs: 'auto', sm: 'auto', md: 'auto' },width: { xs: 'auto', sm: '100%', md: '100%'},background:'#d9fdcaff'}}>
+                    <Box sx={{ height: { xs: 'auto', sm: '53vh', md: '53vh' },width: { xs: 'auto', sm: '330px', md: '330px'},background:"white",borderRadius:'6px'
+                         ,p:{xs:'0px',md:"40px",sm:'40px'},position:{xs:'relative',md:'absolute',sm:'absolute'},top:{xs:'0px',md:'100px',sm:'100px'},left:{xs:'0px',md:'40px',sm:'40px'}}}>
+                    <Typography variant="h5" sx={{mt:{xs:'10px',md:"25px",sm:'20px'}}}>Assembly</Typography>
+                    <Box sx={{height:'auto',width:'100%' ,mt:{xs:'10px',md:"20px",sm:'20px'},lineHeight:'23px'}}>
+                        <Typography variant="p" sx={{fontSize:'17px'}}>Assemble or disassemble furniture items by unboxing, building, and any cleanup.</Typography><br/>
+                    </Box>
+                    <Box sx={{height:'auto',width:'100%',mt:{xs:'10px',md:"30px",sm:'30px'},lineHeight:'23px'}}>
+                        <Typography variant="p" sx={{fontSize:'17px'}}>Now Trending: Curved sofas, computer desks, and sustainable materials.</Typography>
+                    </Box>
+                    
+                    
+                </Box>
 
-                <Box sx={{ height: { xs: 'auto', sm: 'auto', md: '90vh' },width: { xs: 'auto', sm: 'auto', md: '100%'},background:"#d0e4f0ff",borderRadius:'10px',px:{xs:'auto',md:"85px",sm:'85px'},py:{xs:'auto',md:"60px",sm:'60px'}}}>
-                    <Box sx={{ height: { xs: 'auto', sm: 'auto', md: '70vh'},width: { xs: 'auto', sm: 'auto', md: '130vh', }}}>
+                <Box sx={{ height: { xs: 'auto', sm: 'auto', md: '90vh' },width: { xs: 'auto', sm: 'auto', md: '100%'}
+                ,background:"#e3eef5ff",borderRadius:'10px',px:{xs:'auto',md:"120px",sm:'120px'},py:{xs:'auto',md:"60px",sm:'60px'}}}>
+                    <Box sx={{ height: { xs: 'auto', sm: 'auto', md: '70vh'},width: { xs: '40vh', sm: '60vh', md: '130vh', }}}>
                        <img className="img_sty" src={HomepageImage}/> 
                     </Box>
                 </Box>
+                 </Box>
+                
 
 
             </Container>

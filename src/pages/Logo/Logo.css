@@ -3,3 +3,10 @@
     height: 2em !important;
     width: 1.5em !important;
 }
+
+.css-m7dgnn-MuiButtonBase-root-MuiIconButton-root
+{
+    padding-left:15px !important;
+    padding-top:2px !important;
+    text-align: center;
+}
