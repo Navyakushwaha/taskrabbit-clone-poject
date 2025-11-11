@@ -20,3 +20,31 @@
     margin: auto;
     /* background-color: aquamarine; */
 }
+
+@media (max-width:1440px) {
+  .max_width
+  {
+    width: 90%;
+  }
+}
+
+@media (max-width:1024px) {
+  .max_width
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .max_width
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width:320px) {
+  .max_width
+  {
+    width: 95%;
+  }
+}

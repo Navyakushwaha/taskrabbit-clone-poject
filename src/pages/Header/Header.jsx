@@ -9,8 +9,8 @@ function Header() {
     return (
         <>
             <Container maxWidth='full' sx={{
-                width: { xs: "100%", sm: "100%", md: "100%" }, height: {
-                    xs: "auto", sm: "70vh", md: "70vh",
+                width: { xs: "100%", sm: "100%", md: "100%",lg:'100%',xl:'100%'}, height: {
+                    xs: "70vh", sm: "70vh", md: "70vh",
                     alignItems: "center",
                     justifyContent: "center",
                     padding:{xs: "60%", sm: "60%", md: "60%"},
@@ -21,14 +21,14 @@ function Header() {
                 }
             }}>
                 <Box sx={{
-                    width: { xs: "100%", sm: "100%", md: "100%" },
-                    height: {xs: "16vh", sm: "70vh", md: "70vh"}, 
+                    width: { xs: "100%", sm: "100%", md: "100%",lg:'100%',xl:'100%' },
+                    height: {xs: "70vh", sm: "70vh", md: "70vh"}, 
                     display: 'flex',
                     flexDirection:'column',
                     background:'rgba(17, 14, 15, 0.57)'
                 }}>
-                    <Box sx={{ width: '50%',margin:' 65px auto' }}>
-                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'20px',sm:'48px' ,md:'57px'},textAlign:'center' }}>Book trusted help for home tasks</Typography>
+                    <Box sx={{ width:{xs:'60%',sm:'50%',md:'50%'},margin:' 65px auto' }}>
+                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'30px',sm:'48px' ,md:'57px'},textAlign:'center' }}>Book trusted help for home tasks</Typography>
                     </Box>
                     <Box
                         sx={{
@@ -66,7 +66,7 @@ function Header() {
                                                 bgcolor: "#df731cff",
                                                 color: "white",
                                                 borderRadius: "50%",
-                                                p: {xs:'1',md:'1',sm:'2'},
+                                                p: {xs:'10px',md:'7px',sm:'10px'},
                                                 "&:hover": { bgcolor: "#df731cff" },
                                             }}
                                         >

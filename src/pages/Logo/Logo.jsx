@@ -16,9 +16,9 @@ import Cleaning from "../Landing/Cleaning";
 import Mounting from "../Landing/Mounting";
 import Moving from "../Landing/Moving";
 import Outdoor from "../Landing/Outdoor";
-import Painting from "../Landing/Outdoor";
+import Painting from "../Landing/Painting";
 import Repair from "../Landing/Repair";
-import Trending from "../Landing/Repair";
+import Trending from "../Landing/Trending";
 import "./Logo.css"
 import { Container, Box } from "@mui/material";
 
@@ -66,35 +66,6 @@ const Data =
         },
     ]
 
-// const Block = [
-//     {
-//         id: '1',
-//         txt: 'General Furniture Assembly'
-//     },
-//     {
-//         id: '1',
-//         txt: 'IKEA Assembly'
-//     },
-//     {
-//         id: '1',
-//         txt: 'Crib Assembly'
-//     },
-//     {
-//         id: '1',
-//         txt: 'PAX Assembly'
-//     },
-//     {
-//         id: '1',
-//         txt: ' Bookshelf Assembly'
-//     },
-//     {
-//         id: '1',
-//         txt: 'Desk Assembly'
-//     },
-
-
-// ]
-
 function Logo() {
 
     const [page, setPage] = useState("assembly")
@@ -114,6 +85,8 @@ function Logo() {
                 return <Repair />;
             case "trending":
                 return <Trending />;
+            case "moving":
+                return <Moving />;
             default:
                 return <Assembly />;
         }
@@ -121,29 +94,29 @@ function Logo() {
 
     return (
         <>
-            <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }, margin: '4px auto', py: { xs: '10px', sm: '10px', md: '2px' } }}>
+            <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }, margin: '4px auto', py: { xs: '10px', sm: '10px', md: '2px' },position:'relative' }}>
                 <Box class="max_width">
-                    <Box sx={{ height: { xs: '100%', sm: '100%', md: '100%' }, width: { xs: '100%', sm: '100%', md: '100%' }, display: 'flex', flexWrap: 'wrap', borderBottom: '1px solid var(--primary-color)' }}>
+                    <Box sx={{ height: { xs: '100%', sm: '100%', md: '100%' }, width: { xs: '100%', sm: '100%', md: '100%' }, display:'flex', gap:'20px', borderBottom: '1px solid var(--primary-color)',overflowX:{xs:'scroll',md:'hidden',sm:'hidden'} }}>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto',borderBottom:'3px solid #0c4b94ff' }}
                         >
-                            <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '30px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)', }}>
-                                <Button sx={{ color: "#444343ff", fontWeight: "bolder" }} onClick={() => setPage("assembly")}><AutoFixOffIcon /></Button>
+                            <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' },margin: 'auto',border:'1px solid white' }}>
+                                <Button sx={{ color: "#0c4b94ff", fontWeight: "bolder" }} onClick={() => setPage("assembly")}><AutoFixOffIcon /></Button>
                             </Box>
                             <Box sx={{ height: { xs: '40%', sm: '40%', md: '40%' }, width: { xs: '100%', sm: '100%', md: '100%' }, background: '#fff' }}>
-                                <Typography variant="p" sx={{ margin: 'auto', color: 'var(--fifth-color)' }}>
+                                <Typography variant="p" sx={{ margin: 'auto', color:'#0c4b94ff',fontWeight:'600' }}>
                                     Assembly
                                 </Typography>
                             </Box>
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }} onClick={() => setPage("mounting")}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
-                                <Button sx={{ color: "#444343ff", fontWeight: "bolder" }} onClick={() => setPage("mounting")}><BarcodeReaderIcon /></Button>
+                                <Button sx={{ color: "#444343ff", fontWeight: "bolder" }} ><BarcodeReaderIcon /></Button>
                             </Box>
                             <Box sx={{ height: { xs: '40%', sm: '40%', md: '40%' }, width: { xs: '100%', sm: '100%', md: '100%' }, background: '#fff' }}>
                                 <Typography variant="p" sx={{ margin: 'auto', color: 'var(--fifth-color)' }}>Mounting</Typography>
@@ -151,7 +124,7 @@ function Logo() {
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -163,7 +136,7 @@ function Logo() {
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -175,7 +148,7 @@ function Logo() {
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -187,7 +160,7 @@ function Logo() {
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -201,7 +174,7 @@ function Logo() {
 
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -213,7 +186,7 @@ function Logo() {
                         </Box>
 
                         <Box
-                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, width: { xs: '10%', sm: '10%', md: '10%' }, margin: 'auto' }}
+                            sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' },margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
 
@@ -229,21 +202,7 @@ function Logo() {
                     {renderPage()}
 
 
-                    {/* <Box sx={{
-                        height: { xs: '100%', sm: '100%', md: '100%' },
-                        display: 'flex', flexWrap: 'wrap', gap: '15px',p:'10px'
-                    }}>
-                        {Block.map((item) => (
-                            <Typography sx={{ border: '1px solid var(--primary-color)', width: { xs: '26%', sm: '24%', md: '22%' }, padding: { xs: '5px', sm: '5px', md: '10px' }, borderRadius: '35px', textAlign: 'center',
-                            "&:hover": {
-                            color: "var(--primary-color)", 
-                            transform: "scale(1.05)",   
-                        },
-                             }}>
-                                {item.txt}
-                            </Typography>
-                        ))}
-                    </Box> */}
+                   
                 </Box>
 
             </Container>

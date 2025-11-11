@@ -5,12 +5,16 @@
     background-color: rgb(230, 166, 83);
 }
 
-.max_width
+.css-l702m2-MuiContainer-root{
+    padding:0% ;
+}
+
+/* .max_width
 {
     width: 80%;
     margin: auto;
-    /* background-color: aquamarine; */
-}
+    
+} */
 
 a{
     text-decoration: none;

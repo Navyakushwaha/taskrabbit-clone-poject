@@ -6,7 +6,7 @@ function Navbar()
 {
     return(
         <>
-        <Container maxWidth='full' sx={{width:{xs:"100%",sm:"100%",md:"100%"},height:{xs:"16vh",sm:"14vh",md:"12vh"},background:"var(--tirnery-color)",borderBottom:"1px solid var(--tirnery-color)"}}>
+        <Container maxWidth='full' sx={{width:{xs:"100%",sm:"100%",md:"100%",lg:'100%',xl:'100%'},height:{xs:"16vh",sm:"14vh",md:"12vh",lg:'12vh',xl:'12vh'},background:"var(--tirnery-color)",borderBottom:"1px solid var(--tirnery-color)"}}>
             <Box class="max_width">
             <Box sx={{height:{xs:"16vh",sm:"14vh",md:"12vh"}, display:'flex',width:{xs:"100%",sm:"100%",md:"100%"}}}>
                     <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"16vh",sm:"14vh",md:"12vh"},width:{xs:"100%",sm:"100%",md:"35%"},p:{xs:"0px",sm:"10px",md:"10px"},fontSize:{xs:"20px",sm:"20px",md:"20px"}, textAlign:{xs:'center',sm:'center',md:'left'}}}>
@@ -14,7 +14,7 @@ function Navbar()
                             taskrabbit
                         </Typography>
                     </Box>
-                    <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"20vh",sm:"18vh",md:"12vh"},width:{xs:"90%",sm:"50%",md:"50%"},display:{xs:'none',sm:'none',md:'flex'},p:{xs:"0px",sm:"10px",md:"13px 22px"}}}>
+                    <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"20vh",sm:"18vh",md:"12vh"},width:{xs:"90%",sm:"50%",md:"50%",lg:'50%',xl:'50%'},display:{xs:'none',sm:'none',md:'flex'},p:{xs:"0px",sm:"10px",md:"13px 22px"}}}>
                         <a href="#">Servisec</a>
                         <a href="#">Signup/Login</a>
                         <a className="tasker" href="#">Tasker</a>

@@ -3,3 +3,53 @@
     height: 70vh;
     width: 100%;
 }
+
+@media (max-width:1440px) {
+
+    .img_sty
+{
+    height: 70vh;
+    width: 70vw;
+}
+    
+}
+
+@media (max-width:1024px) {
+
+    .img_sty
+{
+    height: 75vh;
+    width: 74vw;
+}
+    
+}
+
+@media (max-width:900px) {
+
+    .img_sty
+{
+    height: 70vh;
+    width: 70vw;
+}
+    
+}
+
+@media (max-width:768px) {
+
+    .img_sty
+{
+    height: 70vh;
+    width: 66vw;
+}
+    
+}
+
+@media (max-width:320px) {
+
+    .img_sty
+{
+    height: 50vh;
+    width: 100%;
+}
+    
+}
