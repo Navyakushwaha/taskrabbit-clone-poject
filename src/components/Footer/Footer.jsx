@@ -19,7 +19,7 @@ function Footer() {
                     </Box>
                     <Box sx={{
                         width: { xs: "100%", sm: "100%", md: "100%" }, height: {
-                            xs: "auto", sm: "70vh", md: "70vh",
+                            xs: "auto", sm: "70vh", md: "50vh",
                         }, display: 'flex', flexWrap: 'wrap',
                         p: { xs: '10px', sm: '0px', md: '0px' }
                     }}>

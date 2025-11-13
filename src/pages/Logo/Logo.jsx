@@ -96,7 +96,7 @@ function Logo() {
         <>
             <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }, margin: '4px auto', py: { xs: '10px', sm: '10px', md: '2px' },position:'relative' }}>
                 <Box class="max_width">
-                    <Box sx={{ height: { xs: '100%', sm: '100%', md: '100%' }, width: { xs: '100%', sm: '100%', md: '100%' }, display:'flex', gap:'20px', borderBottom: '1px solid var(--primary-color)',overflowX:{xs:'scroll',md:'hidden',sm:'hidden'} }}>
+                    <Box sx={{height: { xs: '100%', sm: '100%', md: '100%' }, width: { xs: '100%', sm: '100%', md: '100%' }, display:'flex', gap:'20px', borderBottom: '1px solid var(--primary-color)',overflowX:{xs:'scroll',md:'hidden',sm:'hidden'} }}>
 
                         <Box
                             sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto',borderBottom:'3px solid #0c4b94ff' }}
@@ -151,7 +151,6 @@ function Logo() {
                             sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
-
                                 <Button sx={{ color: "#444343ff", fontWeight: "bolder" }} onClick={() => setPage("outdoor")}><SettingsInputAntennaIcon /></Button>
                             </Box>
                             <Box sx={{ height: { xs: '40%', sm: '40%', md: '40%' }, width: { xs: '100%', sm: '100%', md: '100%' }, background: '#fff' }}>
@@ -163,7 +162,6 @@ function Logo() {
                             sx={{ height: { xs: '18vh', sm: '18vh', md: '18vh' }, margin: 'auto' }}
                         >
                             <Box sx={{ height: { xs: '60%', sm: '60%', md: '60%' }, width: { xs: '100%', sm: '100%', md: '100%' }, fontSize: '18px', fontWeight: '600', margin: 'auto', color: 'var(--six-color)' }}>
-
                                 <Button sx={{ color: "#444343ff", fontWeight: "bolder" }} onClick={() => setPage("repair")}><HardwareOutlinedIcon /></Button>
                             </Box>
                             <Box sx={{ height: { xs: '40%', sm: '40%', md: '40%' }, width: { xs: '100%', sm: '100%', md: '100%' }, background: '#fff' }}>
