@@ -8,23 +8,23 @@ const Block = [
         txt: 'General Furniture Assembly'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'IKEA Assembly'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Crib Assembly'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'PAX Assembly'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Bookshelf Assembly'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Desk Assembly'
     },
 

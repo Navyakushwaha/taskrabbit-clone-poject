@@ -1,0 +1,28 @@
+.img_styl
+{
+    height: 75vh;
+}
+
+.num1{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #cbc6f5;
+    padding: 15px 20px;
+    border-radius: 50% 50%;
+}
+
+.num2{
+    font-size: 20px;
+    font-weight: 600;
+     background-color: #f5f4c6;
+    padding: 15px 20px;
+    border-radius: 50% 50%;
+}
+
+.num3{
+    font-size: 20px;
+    font-weight: 600;
+     background-color: #c6f5df;
+    padding: 15px 20px;
+    border-radius: 50% 50%;
+}

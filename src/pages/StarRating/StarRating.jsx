@@ -1,4 +1,5 @@
 import {Typography, Container, Box, IconButton, InputAdornment, TextField } from "@mui/material";
+import StarIcon from '@mui/icons-material/Star';
 import "./StarRating.css"
 
 const block=[
@@ -47,10 +48,10 @@ function StarRating(){
                 <Typography variant="h4" sx={{height:'50px',fontWeight:'600',color:'var(--seven-color)'}}>See what happy customers are saying about Taskrabbit</Typography>
                 <Box sx={{display:'flex',flexWrap:'wrap'}}>
                   {block.map((item)=>(
-                <Box sx={{height:{xs:'150px' ,sm:'250px',md:'250px'},width:'33%',p:'15px 15px',lineHeight:'28px',fontSize:'18px',gap:'20px',color:'#021b11ff'}}>
-                    <Typography variant="h6" sx={{fontWeight:'600',p:'10px'}}>{item.title}</Typography>
-                    <Typography variant="p">{item.para}</Typography>
-                    <Typography variant="h6" sx={{fontWeight:'600',p:'10px'}}>
+                <Box sx={{height:{xs:'260px' ,sm:'260px',md:'260px'},width:'33%',p:'15px 15px',lineHeight:'28px',fontSize:'18px',gap:'25px',color:'#044128ff',textAlign:'justify'}}>
+                    <Typography variant="h6" sx={{fontWeight:'600',p:'10px'}}>{item.title}<StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarIcon/></Typography>
+                    <Typography variant="p" sx={{alignItems:'initial',justifyContent:'center',textAlign:'center'}}>{item.para}</Typography>
+                    <Typography variant="h6" sx={{fontWeight:'500',p:'10px'}}>
                         <a className="a_sty" href={item.link} target="_blank">{item.anchor}</a>
                     </Typography>
                 </Box>
