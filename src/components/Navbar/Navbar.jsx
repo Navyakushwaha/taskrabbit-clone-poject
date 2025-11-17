@@ -14,10 +14,10 @@ function Navbar()
                             taskrabbit
                         </Typography>
                     </Box>
-                    <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"20vh",sm:"18vh",md:"12vh"},width:{xs:"90%",sm:"50%",md:"50%",lg:'50%',xl:'50%'},display:{xs:'none',sm:'none',md:'flex'},p:{xs:"0px",sm:"10px",md:"13px 22px"}}}>
+                    <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"20vh",sm:"18vh",md:"12vh"},width:{xs:"90%",sm:"50%",md:"73%"},display:{xs:'none',sm:'none',md:'flex'},p:{xs:"0px",sm:"10px",md:"13px 22px"}}}>
                         <a href="#">Servisec</a>
                         <a href="#">Signup/Login</a>
-                        <a className="tasker" href="#">Tasker</a>
+                        <a className="tasker" href="#">Become a Tasker</a>
                     </Box>  
                       {/* import headerImage from "../../assets/header.jpg"; */}
                      {/* backgroundImage: `url(${headerImage})`, */}

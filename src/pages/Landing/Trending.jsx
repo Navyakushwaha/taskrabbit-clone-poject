@@ -8,27 +8,27 @@ const Block = [
         txt: 'General Furniture Assembly'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'General Mounting'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'TV Mounting'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Help Moving'
     },
     {
-        id: '1',
+        id: '5',
         txt: 'Cleaning'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Donation Drop Off'
     },
     {
-        id: '1',
+        id: '7',
         txt: 'Personal Assistant'
     },
 

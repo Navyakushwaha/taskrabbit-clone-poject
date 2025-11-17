@@ -8,35 +8,35 @@ const Block = [
         txt: 'Door,Cabinet, & furniture Repair'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Wall Repair'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Sealing & Caulking'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Appliance Installation & Repairs'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Window & Blinds Reair'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Flooring & Tiling Help'
     },
     {
-        id: '1',
+        id: '7',
         txt: 'Electrical Help'
     },
     {
-        id: '1',
+        id: '8',
         txt: ' Plumbing Help'
     },
     {
-        id: '1',
+        id: '9',
         txt: 'Light Carpentry'
     },
 

@@ -8,23 +8,23 @@ const Block = [
         txt: 'Help Moving'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Truck-Assisted Help Moving'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Trash & Furniture Removal'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Heavy Lifting & Loading'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Reagganging Furniture'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Junk Haul Away'
     },
 

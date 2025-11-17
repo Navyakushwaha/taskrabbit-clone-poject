@@ -35,32 +35,32 @@ const Data =
             txt: 'Mounting'
         },
         {
-            id: '1',
+            id: '3',
             icon: <AutoFixOffIcon />,
             txt: 'Moving'
         },
         {
-            id: '2',
+            id: '4',
             icon: <AutoFixOffIcon />,
             txt: 'cleaning'
         },
         {
-            id: '1',
+            id: '5',
             icon: <AutoFixOffIcon />,
             txt: 'Outdoor Help'
         },
         {
-            id: '2',
+            id: '6',
             icon: <AutoFixOffIcon />,
             txt: 'Home Repairs'
         },
         {
-            id: '1',
+            id: '7',
             icon: <AutoFixOffIcon />,
             txt: 'Painting'
         },
         {
-            id: '2',
+            id: '8',
             icon: <AutoFixOffIcon />,
             txt: 'Trending'
         },

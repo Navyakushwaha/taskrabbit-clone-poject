@@ -8,23 +8,23 @@ const Block = [
         txt: 'Hang Art,Mirror & Decor'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Install Blinds & Window Treatments'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Mounts & Anchor Furniture'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Install Sheives, Road & Hooks'
     },
     {
-        id: '1',
+        id: '5',
         txt: 'Othor Mounting'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'TV Mounting'
     },
 

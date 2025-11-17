@@ -8,23 +8,23 @@ const Block = [
         txt: 'Indoor Painting'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Wallpapering'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Outdoor Painting'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Conrete & Brick Painting'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Accent Wall Painting'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Wallpaper Removal'
     },
 

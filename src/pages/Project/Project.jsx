@@ -11,51 +11,51 @@ import FurnitureImage from "../../assets/Images/Furniture_Removal.webp";
 import "./Project.css"
 const box=[
     {
-        id:'',
+        id:'1',
         imag:ProjectPageImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
 
     },
     {
-        id:'',
+        id:'2',
         imag:HangImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
     },
     {
-        id:'',
+        id:'3',
         imag:TVImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
     },
    {
-        id:'',
+        id:'4',
         imag:HelpImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
     },
     {
-        id:'',
+        id:'5',
         imag:CleaningImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
 
     },
     {
-        id:'',
+        id:'6',
         imag:AdobeStockImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
     },
     {
-        id:'',
+        id:'7',
         imag:ElectricImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
     },
    {
-        id:'',
+        id:'8',
         imag:FurnitureImage,
         txt:'Furniture Assembly',
         price:'Project Starting at $49'
@@ -69,10 +69,10 @@ function Project()
         <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' },padding:'80px 0px' }} >
             <Box class='max_width'>
                 <Typography variant="h4" sx={{height:'50px',color:'var(--seven-color)',fontWeight:'600'}}>Popular Projects</Typography>
-                    <Box sx={{display:'flex',flexWrap:'wrap',height:{xs:'auto',md:'auto',sm:'auto'},gap:'70px',p:'15px 10px',}}>
+                    <Box sx={{display:'flex',flexWrap:'wrap',height:{xs:'auto',md:'auto',sm:'auto'},gap:{xs:'30px',sm:'70px',md:'50px'},p:{xs:'10px 5px',md:"15px 40px",sm:"15px 40px"}}}>
                     {box.map((item)=>(
                         <Box sx={{background:'#f4f6f7ff',borderRadius:'10px',boxShadow:'3', display:{xs:'flex',sm:'block'}}}>
-                              <Box><img className="project_sec_img" src={item.imag}/></Box>
+                              <Box sx={{height:{xs:'90px',md:'150px',sm:'150px'}}}><img className="project_sec_img" src={item.imag}/></Box>
                               <Box sx={{padding:'20px 40px'}}>
                                 <Typography sx={{fontSize:'16px', fontWeight:'600',color:'#023a2cff'}}>{item.txt}</Typography>
                                  <Typography variant="p" sx={{fontSize:'14px',color:'#023a2cff'}}>{item.price}</Typography>

@@ -1,7 +1,6 @@
 import { Container, Box, Button, Typography } from "@mui/material";
 import HomepageImage from "../../assets/Images/Homepage_Assembly.webp";
 import "./Landing.css"
-import { Margin } from "@mui/icons-material";
 const Block = [
     {
         id: '1',

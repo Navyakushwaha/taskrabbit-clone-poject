@@ -8,23 +8,23 @@ const Block = [
         txt: 'Cleaning'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Spring Cleaning'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Apartment Cleaning'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Deep Clean'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Garhe Cleaning'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Move Out Clean'
     },
 

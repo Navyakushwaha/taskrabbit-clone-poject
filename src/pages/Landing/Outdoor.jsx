@@ -8,23 +8,23 @@ const Block = [
         txt: 'Yard Work'
     },
     {
-        id: '1',
+        id: '2',
         txt: 'Lawn Care'
     },
     {
-        id: '1',
+        id: '3',
         txt: 'Gutter Cleaning'
     },
     {
-        id: '1',
+        id: '4',
         txt: 'Leaf Ranking & Removel'
     },
     {
-        id: '1',
+        id: '5',
         txt: ' Landscaping'
     },
     {
-        id: '1',
+        id: '6',
         txt: 'Branch & Hedgr Triming'
     },
 
@@ -54,7 +54,7 @@ function Outdoor() {
 
                 <Box sx={{ position: "relative", height: { xs: 'auto', sm: 'auto', md: 'auto' }, width: { xs: 'auto', sm: '100%', md: '100%' }, }}>
                     <Box sx={{
-                        height: { xs: '230px', sm: '53vh', md: '53vh' }, width: { xs: 'auto', sm: '330px', md: '330px' }, background: "white", borderRadius: '6px'
+                        height: { xs: '250px', sm: '53vh', md: '53vh' }, width: { xs: 'auto', sm: '330px', md: '330px' }, background: "white", borderRadius: '6px'
                         , p: { xs: '0px', md: "40px", sm: '40px' }, position: { xs: 'relative', md: 'absolute', sm: 'absolute' }, top: { xs: '0px', md: '100px', sm: '100px' }, left: { xs: '0px', md: '40px', sm: '40px' }
                     }}>
                         <Typography variant="h5" sx={{ mt: { xs: '10px', md: "25px", sm: '20px' } }}>Outdoor Help</Typography>
