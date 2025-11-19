@@ -8,16 +8,21 @@ import Header from './pages/Header/Header';
 import Footer from './components/Footer/Footer';
 import Logo from './pages/Logo/Logo';
 import Home from './pages/Home/Home';
-
+import Form  from './pages/Form/Form';
+import SignUp from './pages/SignUp/SignUp';
+import Login from './pages/Login/Login';
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='form' element={<Form/>}/>
+          <Route path='/login' element={<Login/>}/>
+           <Route path='/signup' element={<SignUp/>}/>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   )
