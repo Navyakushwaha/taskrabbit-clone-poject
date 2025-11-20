@@ -11,6 +11,8 @@ import Home from './pages/Home/Home';
 import Form  from './pages/Form/Form';
 import SignUp from './pages/SignUp/SignUp';
 import Login from './pages/Login/Login';
+import Block from './pages/Services/Block/Block';
+import Taskers from './Tasker/Taskers/Taskers';
 function App() {
   return (
     <>
@@ -21,6 +23,8 @@ function App() {
           <Route path='form' element={<Form/>}/>
           <Route path='/login' element={<Login/>}/>
            <Route path='/signup' element={<SignUp/>}/>
+           <Route path='/block' element={<Block/>}/>
+           <Route path='/taskers' element={<Taskers/>}/>
         </Routes>
         {/* <Footer /> */}
       </Router>

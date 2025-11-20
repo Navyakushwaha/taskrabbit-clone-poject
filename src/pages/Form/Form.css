@@ -18,10 +18,17 @@
     } */
 }
 
-
 .target
 {
+  text-decoration: none;
+  color: rgb(243, 239, 239);  
+  font-size:14px ;
+}
+
+.target1
+{
     text-decoration: none;
+    
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }

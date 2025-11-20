@@ -36,6 +36,11 @@ a{
     padding: 12px 45px;
 }
 
+.txt{
+    color: var(--forth-color);
+    font-size: 18px;
+}
+
 /* @media (max-width: 1440px) {
   .tasker
 {
