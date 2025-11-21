@@ -92,7 +92,7 @@ function GetHelp() {
                         ))}
                     </Box>
                     <Typography variant="h6" sx={{color:"var(--seven-color)",display:'flex'}}>
-                        <a href="#" className="txt_sty"> See All Services</a>
+                        <a href="/block" className="txt_sty"> See All Services</a>
                     </Typography>
                 </Box>
             </Container>

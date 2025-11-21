@@ -8,18 +8,21 @@ import "./Footer.css"
 function Footer() {
     return (
         <>
-            <Container maxWidth='full' sx={{ maxHeight: '1000px', background: "var(--fifth-color)", borderBottom: "1px solid #000",p:'15px' }}>
+            <Container maxWidth='full' sx={{ maxHeight: '1000px', background: "rgba(0, 0, 0, 0.87)", borderBottom: "1px solid #000", p: '15px' }}>
                 <Box class="max_width">
                     <Box sx={{ width: '100%' }}>
                         <Typography variant="h6" sx={{ color: '#bebabaff' }}>Follow us! We're friendly:
-                            {/* <a href="#"><LinkedInIcon/></a>
-                    <a href="#"><FacebookIcon/></a>
-                    <a href="#"><InstagramIcon/></a> */}
+                            {/* <span className="social-icon">
+                                <a className="social" href="#"><LinkedInIcon /></a>
+                                <a className="social" href="#"><FacebookIcon /></a>
+                                <a className="social" href="#"><InstagramIcon /></a>
+                            </span> */}
+
                         </Typography>
                     </Box>
                     <Box sx={{
                         width: { xs: "100%", sm: "100%", md: "100%" }, height: {
-                            xs: "auto", sm: "70vh", md: "50vh",
+                            xs: "auto", sm: "70vh", md: "55vh",
                         }, display: 'flex', flexWrap: 'wrap',
                         p: { xs: '10px', sm: '0px', md: '0px' }
                     }}>

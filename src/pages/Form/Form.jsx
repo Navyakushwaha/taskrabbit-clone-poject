@@ -17,11 +17,12 @@ const Form = () => {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundAttachment: "fixed",
+                    
                 }
             }} >
 
-                <Box sx={{ height: { xs: '50vh', md: "90vh", sm: '70vh', lg: '90vh' }, width: { xs: '50%', md: '50%', sm: '70%' }, padding: '150px 55px', margin: 'auto' }}>
-                    <Box sx={{ height: { xs: '50vh', md: "55vh", sm: '50vh', lg: '55vh' }, background: "rgba(0, 0, 0, 0.58)", width: '100%', borderRadius: '10px', padding: '25px 10px' }}>
+                <Box sx={{ height: { xs: '50vh', md: "90vh", sm: '70vh', lg: '90vh' }, width: { xs: '50%', md: '50%', sm: '70%' }, padding: '150px 55px', margin: 'auto', }}>
+                    <Box sx={{ height: { xs: '50vh', md: "55vh", sm: '50vh', lg: '55vh' }, background: "#fff", width: '100%', borderRadius: '10px', padding: '25px 10px',boxShadow:"5px 5px 10px 2px rgba(0, 0, 0, 0.5)" }}>
                         <Box sx={{ height: '25%', marginTop: "10px" }}>
                             <Typography variant="h2" sx={{ color: "var(--primary-color)", textAlign: 'center', fontSize: { xs: '50px', md: '70px', sm: '60px' } }}>
                                 taskrabbit
@@ -32,18 +33,18 @@ const Form = () => {
                                 <Button sx={{
                                     background: 'var(--primary-color)', width: '70%', fontSize: '14px', fontWeight: '600',
                                     borderRadius: '30px', color: 'white', padding: '0px',
-                                    "&:hover": { background: "#558f87ff" }
+                                    "&:hover": { background: "#fff"},border:"1px solid var(--primary-color)"
                                 }}>
-                                    <a href="/signup" className="target1">Sign up</a></Button>
+                                    <a href="/signup" className="target2">Sign up</a></Button>
                             </Box>
                             <Box sx={{ height: { xs: '0px', md: '20%', sm: '20%' }, textAlign: 'center', marginTop: '20px' }}>
                                 <Button sx={{
-                                    background: '#558f87ff', width: '70%', fontSize: '14px', fontWeight: '600', borderRadius: '30px', color: 'white', border: "1px solid #558f87ff", padding: '0px', marginTop: '0px',
-                                    "&:hover": { background: "var(--primary-color)" }, textDecoration: 'none'
+                                    background: '#fff', width: '70%', fontSize: '14px', fontWeight: '600', borderRadius: '30px', color: 'white', border: "1px solid var(--primary-color)", padding: '0px', marginTop: '0px',
+                                    "&:hover": { background: "var(--primary-color)"}, textDecoration: 'none'
                                 }}><a className="target1" href="/login">Log in</a></Button>
                             </Box>
                             <Box sx={{ height: '50%', textAlign: 'center', marginTop: '30px' }}>
-                                <Typography sx={{ color: "#fff", fontWeight: "500", fontSize: '16px' }}>By signing up you agree to our<a href="#" className="target" >Terms of Use</a> and <a href="#" className="target">Privacy Policy.</a></Typography>
+                                <Typography sx={{ color: "#111010ff", fontWeight: "500", fontSize: '16px' }}>By signing up you agree to our<a href="#" className="target" >Terms of Use</a> and <a href="#" className="target">Privacy Policy.</a></Typography>
                             </Box>
                         </Box>
                     </Box>

@@ -10,14 +10,14 @@ const Upper = () => {
                     },
                     alignItems: "center",
                     justifyContent: "center",
-                    padding: { xs: "60%", sm: "60%", md: "60px" },
+                    padding: { xs: "30%", sm: "30%", md: "60px" },
                     backgroundImage: `url(${Image})`,
                     backgroundSize: "100% 100%",
                     backgroundPosition: "center",
                     backgroundRepeat:"no-repeat",
-                    backgroundAttachment:"fixed",
+                    // backgroundAttachment:"fixed",
                 }}>
-                <Typography variant="h4" sx={{textAlign:"center",marginTop:"140px",color:"white",fontSize:"40px",fontWeight:"600"}}>Your to-do list is on us.</Typography>
+                <Typography variant="h4" sx={{textAlign:"center",paddingTop:{xs:"30px",sm:"20px",md:"180px"},color:"white",fontSize:{xs:"20px",sm:"30px",md:"40px"},fontWeight:"600"}}>Your to-do list is on us.</Typography>
             </Container>
         </>
     )

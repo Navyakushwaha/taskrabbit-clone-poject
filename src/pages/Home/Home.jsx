@@ -17,7 +17,7 @@ function Home()
         <Logo/>
         <Review/>
         <Project/>
-        {/* <StarRating/> */}
+        <StarRating/>
         <Guaranteed/>
         <Work/>
         <GetHelp/>

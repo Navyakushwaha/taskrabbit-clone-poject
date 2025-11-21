@@ -1,5 +1,5 @@
 import { Container, Box, Button, Typography, Link } from "@mui/material";
-import Image from "../../assets/Images/Electrical_Help.webp";
+import Image from "../../assets/Images/form3.jpg";
 import './Login.css'
 const Login = () => {
     return (
@@ -12,12 +12,12 @@ const Login = () => {
                 justifyContent: "center",
                 padding: { xs: "60%", sm: "60%", md: "60px" },
                 backgroundImage: `url(${Image})`,
-                backgroundSize: "100% 100%",
+                backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundAttachment: "fixed",
             }}>
-                <Box sx={{ height: 'auto', width: '500px', background: 'white', margin: "auto",padding:"20px 75px",borderRadius:"7px" }}>
+                <Box sx={{ height: 'auto', width: '500px', background: 'white', margin: "auto",padding:"20px 75px",borderRadius:"7px",boxShadow:"5px 5px 10px 2px rgba(0, 0, 0, 0.5)" }}>
                     <Typography variant="h2" sx={{ color: "var(--primary-color)", textAlign: 'center', fontSize: { xs: '50px', md: '70px', sm: '60px' } }}>
                         taskrabbit
                     </Typography>

@@ -41,6 +41,36 @@ a{
     font-size: 18px;
 }
 
+.hide
+{
+  color :var(--primary-color);
+  font-size: 30px;
+  display: none;
+}
+
+@media (max-width:1024px){
+    .hide
+    {
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .hide
+    {
+        display: block;
+    }
+}
+
+@media (max-width:320px){
+    .hide
+    {
+        display: block;
+    }
+}
+
+
+
 /* @media (max-width: 1440px) {
   .tasker
 {

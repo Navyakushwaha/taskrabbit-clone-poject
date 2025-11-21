@@ -7,7 +7,7 @@
 
 .footer_txt{
     color: aliceblue;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0%;
 }
 
@@ -19,6 +19,12 @@
 .f_img2
 {
     height: 55px;
+}
+
+.social
+{
+    color: gray;
+    margin: 10px;
 }
 
 /* a{

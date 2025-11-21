@@ -21,14 +21,30 @@
 .target
 {
   text-decoration: none;
-  color: rgb(243, 239, 239);  
+  color: rgb(24, 23, 23);  
   font-size:14px ;
 }
 
 .target1
 {
     text-decoration: none;
-    
-    color: white;
+    color:var(--primary-color);
     font-size: 14px;
+}
+
+.target1:hover
+{
+    color: white;
+}
+
+.target2
+{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.target2:hover
+{
+    color: var(--primary-color);
 }

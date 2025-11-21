@@ -1,0 +1,23 @@
+.card_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius:  5px 5px 0px 0px;
+}
+
+.target
+{
+    font-size: 16px;
+    margin-right: 0px;
+    color: rgb(3, 56, 45);
+    line-height: 28px;
+    word-spacing: 2px;
+}
+
+.targt1
+{
+    font-size: 16px;
+    margin-top: 50px;
+    background-color: aqua;
+    
+}
