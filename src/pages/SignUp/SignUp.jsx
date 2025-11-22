@@ -19,7 +19,7 @@ const SignUp = () => {
                 <Box sx={{ height: 'auto', width: '550px', background: 'white', margin: "auto", 
                     padding: "44px 105px", borderRadius: "7px",boxShadow:"5px 5px 10px 2px rgba(0, 0, 0, 0.5)" }}>
                     <Typography variant="h2" sx={{ color: "var(--primary-color)", textAlign: 'center', fontSize: { xs: '50px', md: '70px', sm: '60px' } }}>
-                        taskrabbit
+                        HelperHub
                     </Typography>
                     <Box sx={{ height: 'auto', width: '100%' }}>
                         <input className="input" type="text" placeholder="First Name" />

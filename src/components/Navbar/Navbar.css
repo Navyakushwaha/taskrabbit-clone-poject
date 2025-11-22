@@ -16,6 +16,21 @@
     
 } */
 
+.style
+{
+    text-transform: lowercase;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(15, 41, 33);
+}
+
+.col
+{
+    /* color: rgb(23, 95, 71); */
+    font-weight: 500;
+    font-size: larger;
+}
+
 a{
     text-decoration: none;
     font-size: 20px;
@@ -37,8 +52,9 @@ a{
 }
 
 .txt{
-    color: var(--forth-color);
+    /* color: var(--forth-color); */
     font-size: 18px;
+     color: rgb(15, 41, 33);
 }
 
 .hide

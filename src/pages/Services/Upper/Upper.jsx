@@ -17,7 +17,7 @@ const Upper = () => {
                     backgroundRepeat:"no-repeat",
                     // backgroundAttachment:"fixed",
                 }}>
-                <Typography variant="h4" sx={{textAlign:"center",paddingTop:{xs:"30px",sm:"20px",md:"180px"},color:"white",fontSize:{xs:"20px",sm:"30px",md:"40px"},fontWeight:"600"}}>Your to-do list is on us.</Typography>
+                <Typography variant="h4" sx={{textAlign:"center",paddingTop:{xs:"30px",sm:"20px",md:"130px"},color:"white",fontSize:{xs:"20px",sm:"30px",md:"60px"},fontWeight:"600",textShadow: "2px 2px 4px black"}}>Your to-do list is on us.</Typography>
             </Container>
         </>
     )

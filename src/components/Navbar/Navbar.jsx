@@ -11,8 +11,8 @@ function Navbar()
             <Box class="max_width">
             <Box sx={{height:{xs:"16vh",sm:"14vh",md:"12vh"}, display:'flex',width:{xs:"100%",sm:"100%",md:"100%"}}}>
                     <Box sx={{bgcolor:'var(--tirnery-color)',height:{xs:"16vh",sm:"14vh",md:"12vh"},width:{xs:"100%",sm:"100%",md:"35%"},p:{xs:"0px",sm:"10px",md:"10px"},fontSize:{xs:"20px",sm:"20px",md:"20px"}, textAlign:{xs:'center',sm:'center',md:'left'}}}>
-                        <Typography variant="h3" sx={{color:"var(--primary-color)"}}>
-                           <span className="hide"><FiMenu /></span>  taskrabbit
+                        <Typography variant="h3" sx={{color:"var(--primary-color)",textShadow: "2px 2px 4px black"}}>
+                           <span className="hide"><FiMenu /></span> HelperHub
                         </Typography>
                         
                     </Box>

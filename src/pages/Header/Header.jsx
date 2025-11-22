@@ -28,8 +28,8 @@ function Header() {
                     flexDirection:'column',
                     background:'rgba(17, 14, 15, 0.57)'
                 }}>
-                    <Box sx={{ width:{xs:'60%',sm:'50%',md:'50%'},margin:' 65px auto' }}>
-                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'30px',sm:'48px' ,md:'57px'},textAlign:'center' }}>Book trusted help for home tasks</Typography>
+                    <Box sx={{ width:{xs:'60%',sm:'50%',md:'50%'},margin:' 105px auto' }}>
+                        <Typography variant="h3" sx={{fontWeight: '600', color: 'var(--primary-color)', fontSize:{xs:'30px',sm:'48px' ,md:'57px'},textAlign:'center',textShadow: "2px 2px 4px black" }}>Book trusted help for home tasks</Typography>
                     </Box>
                     <Box
                         sx={{
@@ -40,7 +40,7 @@ function Header() {
                             margin:' 0px auto'
                         }}
                     >
-                        <TextField
+                        {/* <TextField
                             variant="outlined"
                             placeholder="What do you need help with?"
                             sx={{
@@ -76,7 +76,7 @@ function Header() {
                                     </InputAdornment>
                                 ),
                             }}
-                        />
+                        /> */}
                     </Box>
                 </Box>
 
