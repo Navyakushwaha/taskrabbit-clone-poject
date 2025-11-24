@@ -4,7 +4,7 @@ import './work.css'
 function Work(){
     return(
         <>
-           <Container maxWidth="full" sx={{height:'auto' ,background:'#f3f3d9ff',display:{xs:"nome",sm:"none",md:"block"}}}>
+           <Container maxWidth="full" sx={{height:'auto' ,background:'#f3f3d9ff',display:{xs:"none",sm:"none",md:"block"}}}>
               <Box class="max_width">
                    <Box sx={{ position: "relative", height: { xs: 'auto', sm: '80vh', md: '95vh' }, width: { xs: '100%', sm: '100%', md: '100%' }, }}>
                                   <Box sx={{

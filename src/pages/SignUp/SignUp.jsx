@@ -43,7 +43,7 @@ const SignUp = () => {
                             &nbsp;&nbsp;I agree to the<a href="#" className="target" >Terms and Conditions</a> and have reviewed the<a href="#" className="target">Privacy Policy.</a></Typography>
                     </Box> */}
                     <Button sx={{
-                        height: '40px', background:'#558f87ff', color: 'white', fontWeight: "600", width: '350px',
+                        height: '40px', background:'#0c6b41', color: 'white', fontWeight: "600", width: '350px',
                         borderRadius: "30px", marginTop: '35px',"&:hover": { background: "var(--primary-color)"}
                     }}>Create Account
                     </Button>

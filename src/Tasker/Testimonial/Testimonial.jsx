@@ -12,7 +12,7 @@ const Testimonial = () => {
                         <Box sx={{ width: { xs: "100%", sm: "100%", md: "33%" }, padding: "40px 10px" }}>
                             <Box sx={{color:"var(--primary-color)"}}><SiComma/><SiComma/></Box>
                             <Typography sx={{ paddingTop: "20px", fontSize: {xs:"18px",sm:"24px",md:"24px"}, color: "var(--second-color)" ,fontWeight:"500"}}>
-                                I love TaskRabbit! I was able to get out of debt, tackle bills, provide for my family, and still have enough room to save for future goals.
+                                I love HelperHub! I was able to get out of debt, tackle bills, provide for my family, and still have enough room to save for future goals.
                                   <span>Karsheem W., New York, NY</span>
                             </Typography>
                         </Box>

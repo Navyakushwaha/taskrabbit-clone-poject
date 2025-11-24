@@ -49,7 +49,7 @@ const block=[
 function StarRating(){
     return(
         <>
-        <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' }}}>
+        <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto'},display:{xs:"none",sm:"none",md:"block" }}}>
             <Box class="max_width">
                 <Typography variant="h4" sx={{height:'50px',fontWeight:'600',color:'var(--seven-color)'}}>See what happy customers are saying about Taskrabbit</Typography>
                 <Box sx={{display:'flex',flexWrap:'wrap'}}>

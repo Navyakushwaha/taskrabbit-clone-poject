@@ -20,44 +20,44 @@ const box=[
     {
         id:'2',
         imag:HangImage,
-        txt:'Furniture Assembly',
-        price:'Project Starting at $49'
+        txt:'Mount Art,Shelves',
+        price:'Project Starting at $65'
     },
     {
         id:'3',
         imag:TVImage,
-        txt:'Furniture Assembly',
-        price:'Project Starting at $49'
+        txt:'Mount a TV',
+        price:'Project Starting at $99'
     },
    {
         id:'4',
         imag:HelpImage,
-        txt:'Furniture Assembly',
+        txt:'Help Moving',
         price:'Project Starting at $49'
     },
     {
         id:'5',
         imag:CleaningImage,
-        txt:'Furniture Assembly',
+        txt:'Home Cleaning',
         price:'Project Starting at $49'
 
     },
     {
         id:'6',
         imag:AdobeStockImage,
-        txt:'Furniture Assembly',
+        txt:'Minor Plumbing',
         price:'Project Starting at $49'
     },
     {
         id:'7',
         imag:ElectricImage,
-        txt:'Furniture Assembly',
+        txt:'Electrical Help',
         price:'Project Starting at $49'
     },
    {
         id:'8',
         imag:FurnitureImage,
-        txt:'Furniture Assembly',
+        txt:'Heavy Lifting',
         price:'Project Starting at $49'
     },
   

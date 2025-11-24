@@ -11,9 +11,9 @@ const Question = () => {
                         <img className="driller" src={Image}/>
                        </Box>
                        <Box sx={{width:{xs:"100%",sm:"100%",md:"33%"},padding:"40px 10px"}}>
-                        <Typography variant="h4" sx={{fontWeight:"600",color:"var(--forth-color)"}}>What is TaskRabbit?</Typography>
+                        <Typography variant="h4" sx={{fontWeight:"600",color:"var(--forth-color)"}}>What is HelperHub?</Typography>
                         <Typography sx={{paddingTop:"20px",fontSize:"19px",color:"var(--forth-color)"}}>
-                            TaskRabbit connects busy people in need of help with trusted local Taskers who can lend a hand with everything from home repairs to errands. As a Tasker, you can get paid to do what you love, when and where you want — all while saving the day for someone in your city.
+                            HelperHub connects busy people in need of help with trusted local Taskers who can lend a hand with everything from home repairs to errands. As a Tasker, you can get paid to do what you love, when and where you want — all while saving the day for someone in your city.
                         </Typography>
                        </Box>
                     </Box>

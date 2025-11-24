@@ -28,7 +28,7 @@ const Login = () => {
                         <input className="input1" type="text" placeholder="Password" />
                     </Box>
                     <Typography sx={{marginTop:'10px',}}><a className="link" href="#">Forgot Password?</a></Typography>
-                    <Button sx={{height:'40px', background: '#558f87ff',color:'white',fontWeight:"600",width:'350px',
+                    <Button sx={{height:'40px', background: '#0c6b41',color:'white',fontWeight:"600",width:'350px',
                         borderRadius:"30px",marginTop:'20px', "&:hover": { background: "var(--primary-color)" }}}>Log in</Button>
                     
                     <Box sx={{height:'100px',marginTop:'40px',width:'350px'}}>
