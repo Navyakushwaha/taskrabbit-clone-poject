@@ -64,6 +64,11 @@ a{
   display: none;
 }
 
+.MuiListItemIcon-root .css-1umw9bq-MuiSvgIcon-root
+{
+    fill: var(--primary-color) !important;
+}
+
 @media (max-width:1024px){
     .hide
     {

@@ -1,5 +1,6 @@
 import { Container, Box, Button, Typography, Link } from "@mui/material";
 import Image from "../../assets/Images/form3.jpg";
+import ClearIcon from '@mui/icons-material/Clear';
 import './Login.css'
 const Login = () => {
     return (
@@ -18,7 +19,8 @@ const Login = () => {
                 backgroundAttachment: "fixed",
             }}>
                 <Box sx={{ height: '100%', width: '500px', background: 'white', margin: "auto",padding:"20px 75px",borderRadius:"7px",boxShadow:"5px 5px 10px 2px rgba(0, 0, 0, 0.5)" }}>
-                    <Typography variant="h2" sx={{ color: "var(--primary-color)", textAlign: 'center', fontSize: { xs: '50px', md: '70px', sm: '60px' } }}>
+                    <Box sx={{width:"10px"}}><a className="cross" href="/"><ClearIcon/></a></Box>
+                    <Typography variant="h2" sx={{ color: "var(--primary-color)",width:"100%", textAlign: 'center', fontSize: { xs: '50px', md: '70px', sm: '60px' } }}>
                         HelperHub
                     </Typography>
                     <Box sx={{ height: 'auto', width: '100%' }}>
