@@ -8,6 +8,8 @@ import Work from '../Work/Work'
 import GetHelp from "../GetHelp/GetHelp";
 import Guaranteed from "../Guaranteed/Guaranteed";
 import Footer from "../../components/Footer/Footer";
+import Describe from "../../components/common/timelined/describe/Decribe";
+import TaskForm from '../../components/common/taskform/TaskForm'
 function Home()
 {
     return(
@@ -22,6 +24,8 @@ function Home()
         <Work/>
         <GetHelp/>
         <Footer/>
+        <Describe/>
+        <TaskForm/>
         </>
     )
 }

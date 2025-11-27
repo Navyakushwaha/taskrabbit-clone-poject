@@ -6,6 +6,8 @@ import FingerTips from '../FingerTips/FingerTips'
 import Question from '../Question/Question'
 import Started from '../Started/Started'
 import Testimonial from '../Testimonial/Testimonial'
+import Answered from '../Answered/Answered'
+import Ready from '../Ready/Ready'
 import Review from '../../pages/Review/Review'
 import GetHelp from '../../pages/GetHelp/GetHelp'
 import Monyform from '../Monyform/Monyform'
@@ -20,6 +22,8 @@ const Taskers=()=>{
         <Question/>
         <Started/>
         <Testimonial/>
+        <Answered/>
+        <Ready/>
         <Review/>
         <GetHelp/>
         <Footer/>

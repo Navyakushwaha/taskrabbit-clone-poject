@@ -93,10 +93,10 @@ function Footer() {
                                 <a className="footer_txt" href="#">Tackle your to-do list wherever you are with our mobile app.</a>
                             </Typography>
                             <Box sx={{ mt: '10px', textAlign: 'center' }}>
-                                <a href="#"><img className="f_img" src="https://www.taskrabbit.com/_next/static/media/download-ios.6f846953.svg" /></a>
+                                <a href="https://play.google.com/store/apps?hl=en_IN"><img className="f_img" src="https://www.taskrabbit.com/_next/static/media/download-ios.6f846953.svg" /></a>
                             </Box>
                             <Box sx={{ mt: '10px', textAlign: 'center' }}>
-                                <a href="#"><img className="f_img2" src="https://www.taskrabbit.com/_next/static/media/google-play.e0aec133.svg" /></a>
+                                <a href="https://play.google.com/store/apps?hl=en_IN"><img className="f_img2" src="https://www.taskrabbit.com/_next/static/media/google-play.e0aec133.svg" /></a>
                             </Box>
                         </Box>
                     </Box>

@@ -1,5 +1,5 @@
 import Typography from "@mui/material/Typography";
-import { Container, Box, IconButton, InputAdornment, TextField } from "@mui/material";
+import { Container, Box} from "@mui/material";
 import ProjectPageImage from "../../assets/Images/Furniture_Assembly.webp";
 import HangImage from "../../assets/Images/Hang_Pictures.webp";
 import TVImage from "../../assets/Images/Mount_TV.webp";
@@ -8,7 +8,9 @@ import CleaningImage from "../../assets/Images/Home_Apartment_Cleaning.webp";
 import ElectricImage from "../../assets/Images/Electrical_Help.webp";
 import AdobeStockImage from "../../assets/Images/AdobeStock.webp";
 import FurnitureImage from "../../assets/Images/Furniture_Removal.webp";
+import Ydots from '../../assets/Images/dots-yellow.svg'
 import "./Project.css"
+import { ImportExport } from "@mui/icons-material";
 const box=[
     {
         id:'1',
@@ -66,8 +68,9 @@ function Project()
 {
     return(
         <>
-        <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' },padding:'80px 0px' }} >
+        <Container maxWidth="full" sx={{ height: { xs: 'auto', sm: 'auto', md: 'auto' },padding:'80px 0px',backgroundImage:`url(${Ydots})`,backgroundRepeat:"no-repeat"}} >
             <Box class='max_width'>
+                {/* <img src={`${Ydots}`}/> */}
                 <Typography variant="h4" sx={{height:'50px',color:'var(--seven-color)',fontWeight:'600'}}>Popular Projects</Typography>
                     <Box sx={{display:'flex',flexWrap:'wrap',height:{xs:'auto',md:'auto',sm:'auto'},gap:{xs:'30px',sm:'70px',md:'50px'},p:{xs:'10px 5px',md:"15px 40px",sm:"15px 40px"}}}>
                     {box.map((item)=>(

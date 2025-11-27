@@ -1,0 +1,19 @@
+.anchor-txt
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #2e8370;
+}
+
+.anchor-txt:hover
+{
+    color:var(--forth-color);
+}
+
+@media (max-width:320px) {
+    .anchor-txt
+    {
+        font-size: 14px;
+        width: 100%;
+    }
+}

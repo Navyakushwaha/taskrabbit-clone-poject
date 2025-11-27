@@ -9,6 +9,7 @@ import SignUp from './pages/SignUp/SignUp';
 import Login from './pages/Login/Login';
 import Block from './pages/Services/Block/Block';
 import Taskers from './Tasker/Taskers/Taskers';
+import Describe from './components/common/timelined/describe/Decribe';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
            <Route path='/signup' element={<SignUp/>}/>
            <Route path='/block' element={<Block/>}/>
            <Route path='/taskers' element={<Taskers/>}/>
+           <Route path='/describe'  element={<Describe/>}/>
         </Routes>
         {/* <Footer /> */}
       </Router>
