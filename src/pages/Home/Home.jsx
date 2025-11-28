@@ -24,8 +24,8 @@ function Home()
         <Work/>
         <GetHelp/>
         <Footer/>
-        <Describe/>
-        <TaskForm/>
+        {/* <Describe/> */}
+        {/* <TaskForm/> */}
         </>
     )
 }

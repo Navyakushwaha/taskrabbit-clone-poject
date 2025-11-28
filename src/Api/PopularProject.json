@@ -1,0 +1,61 @@
+[
+    {
+        "id":1,
+        "imag":"/Furniture_Assembly.webp",
+        "txt":"Furniture Assembly",
+        "price":"Project Starting at $49",
+        "state":0
+
+    },
+    {
+        "id":2,
+        "imag":"/Hang_Pictures.webp",
+        "txt":"Mount Art,Shelves",
+        "price":"Project Starting at $65",
+         "state":0
+    },
+    {
+        "id":3,
+        "imag":"/Mount_TV.webp",
+        "txt":"Mount a TV",
+        "price":"Project Starting at $99",
+         "state":1
+    },
+   {
+        "id":4,
+        "imag":"/Help_Moving.webp",
+        "txt":"Help Moving",
+        "price":"Project Starting at $49",
+         "state":1
+    },
+    {
+        "id":5,
+        "imag":"/Home_Apartment_Cleaning.webp",
+        "txt":"Home Cleaning",
+        "price":"Project Starting at $49",
+         "state":0
+
+    },
+    {
+        "id":6,
+        "imag":"/AdobeStock.webp",
+        "txt":"Minor Plumbing",
+        "price":"Project Starting at $49",
+         "state":1
+    },
+    {
+        "id":7,
+        "imag":"/Electrical_Help.webp",
+        "txt":"Electrical Help",
+        "price":"Project Starting at $49",
+         "state":0
+    },
+   {
+        "id":8,
+        "imag":"/Furniture_Assembly.webp",
+        "txt":"Heavy Lifting",
+        "price":"Project Starting at $49",
+         "state":1
+    }
+  
+]

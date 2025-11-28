@@ -4,6 +4,10 @@
     border-radius:10px 10px 0px 0px;
 }
 
+.project-anchor
+{
+    padding: 0%;
+}
 
 
 @media (max-width:1024px) {

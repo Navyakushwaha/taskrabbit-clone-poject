@@ -1,4 +1,4 @@
-.input-sty
+.input-style
 {
     height: 60px;
     width: 100%;
@@ -10,7 +10,13 @@
     border: 1px solid gray;
 }
 
-.css-1ekwoht-MuiTypography-root  .css-1umw9bq-MuiSvgIcon-root  
+.lable
 {
-    fill: #1b9658ff !important;
+    font-weight: 600;
+}
+
+.hang-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
